@@ -23,7 +23,7 @@ const RegionFilter = ()=>{
                         <div className = {regionFilterList.findIndex((regionFilter)=> el === regionFilter) === -1?
                         "":
                         "region_selected"}>
-                            <img onClick = {regionFiltering(el)} key = {i} src = {require(`../rune_image/ko_kr/img/region/${imgarr[i]}.png`)}/>
+                            <img onClick = {regionFiltering(el)} key = {i} src = {`https://kimserverrunetera.s3.ap-northeast-2.amazonaws.com/rune_image/ko_kr/img/region/${imgarr[i]}.png`}/>
                         </div>
                     ) 
                 })}

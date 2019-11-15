@@ -49,7 +49,7 @@ const CardList = ({cardList})=>{
             })
             .sort((a,b)=> a.cost - b.cost)
             .map((el, i)=>{
-                return <img onClick = {setCardToDeck(el)} key = {i} width ={200} height = {200} src = {require(`../rune_image/ko_kr/img/cards/${el.cardCode}.png`) }alt = "이미지없음"/>
+                return <img onClick = {setCardToDeck(el)} key = {i} width ={200} height = {200} src = {`https://kimserverrunetera.s3.ap-northeast-2.amazonaws.com/rune_image/ko_kr/img/cards/${el.cardCode}.png` }alt = "이미지없음"/>
             })}
       </div>
     )
