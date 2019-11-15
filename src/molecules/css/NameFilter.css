@@ -1,0 +1,12 @@
+.input_name_container{
+    align-self: flex-start;
+    width : 80%;
+    margin-bottom : 40px;
+}
+.input_name_text{
+    width : 50%;
+    height : 80px;
+    font-size : 25px;
+    padding-left : 10px;
+    border-radius: 10px;
+}

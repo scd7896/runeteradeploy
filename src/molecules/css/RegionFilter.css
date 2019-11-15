@@ -1,0 +1,8 @@
+.region_filter_container{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.region_selected{
+    background-color: darkkhaki;
+}

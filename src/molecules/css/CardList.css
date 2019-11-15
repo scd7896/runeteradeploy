@@ -1,0 +1,6 @@
+.card_list_container{
+    border : 2px solid black;
+    background-color: darkslateblue;
+    flex : 3;
+
+}

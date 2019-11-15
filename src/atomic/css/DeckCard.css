@@ -1,0 +1,37 @@
+.deck_card_container{
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-around;
+    width : 300px;
+    height : 70px;
+    border : 1px solid black
+}
+.aionia{
+    background-color: aquamarine;
+}
+.noxus{
+    background-color: #ff508f;
+}
+.demacia{
+    background-color: yellow;
+}
+.shadow{
+    background-color: teal;
+}
+.frelyord{
+    background-color: royalblue;
+}
+.fieldover{
+    background-color: salmon;
+}
+
+.cost_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width : 50px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: cornsilk;
+}
