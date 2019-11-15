@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/runeteradeploy/precache-manifest.cbcb38c9fcb1e0431c4a579addc9bc51.js"
+  "/runeteradeploy/precache-manifest.48376eaf00e6be7647e45a443ea2d66c.js"
 );
 
 self.addEventListener('message', (event) => {
